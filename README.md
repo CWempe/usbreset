@@ -30,7 +30,7 @@ sudo chmod 0755 /usr/local/sbin/usbreset
 Identify your device with the following command and look for bus and device number.
 
 ```
-lsusb
+lsusb -v
 ```
 
 Execute the command to reset the usb port.
